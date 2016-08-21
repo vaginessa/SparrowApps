@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:padding="10dp">
+
+	<EditText
+		android:layout_height="wrap_content"
+		android:inputType="textMultiLine"
+		android:layout_width="match_parent"
+		android:ems="10"
+		android:id="@+id/content"
+		android:hint="输入你的说说内容"
+		android:layout_weight="1.0"
+		android:gravity="top"/>
+
+	<EditText
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:ems="10"
+		android:hint="输入你的手机型号"
+		android:id="@+id/model"
+		android:visibility="gone"/>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal">
+
+		<Spinner
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:layout_weight="1.0"
+			android:id="@+id/spinner"/>
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:orientation="horizontal"
+			android:layout_weight="1.0">
+
+			<Button
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:text="生成结果"
+				android:id="@+id/generate"
+				android:layout_weight="1.0"/>
+
+			<Button
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:text="复制结果"
+				android:layout_weight="1.0"
+				android:id="@+id/copy"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<EditText
+		android:layout_height="wrap_content"
+		android:inputType="textMultiLine"
+		android:layout_width="match_parent"
+		android:ems="10"
+		android:hint="结果在这"
+		android:layout_weight="1.0"
+		android:id="@+id/result"
+		android:gravity="top"/>
+
+</LinearLayout>
+
