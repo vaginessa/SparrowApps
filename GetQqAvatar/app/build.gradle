@@ -5,11 +5,11 @@ android {
     buildToolsVersion "24.0.1"
 
     defaultConfig {
-        applicationId "crixec.app.qq99up"
+        applicationId "crixec.app.getqqavatar"
         minSdkVersion 9
         targetSdkVersion 24
-        versionCode 3
-        versionName "2.5"
+        versionCode 1
+        versionName "1.0"
     }
     buildTypes {
         release {

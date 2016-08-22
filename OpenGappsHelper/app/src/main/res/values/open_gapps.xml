@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="arches">
+        <item>arm</item>
+        <item>arm64</item>
+        <item>x86</item>
+        <item>x86_64</item>
+    </string-array>
+    <string-array name="apis">
+        <item>4.4</item>
+        <item>5.0</item>
+        <item>5.1</item>
+        <item>6.0</item>
+    </string-array>
+    <string-array name="variants">
+        <item>pico</item>
+        <item>aroma</item>
+        <item>super</item>
+        <item>stock</item>
+        <item>full</item>
+        <item>mini</item>
+        <item>micro</item>
+        <item>nano</item>
+    </string-array>
+</resources>

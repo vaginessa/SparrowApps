@@ -5,11 +5,11 @@ android {
     buildToolsVersion "24.0.1"
 
     defaultConfig {
-        applicationId "crixec.app.qq99up"
-        minSdkVersion 9
+        applicationId "crixec.app.opengappshelper"
+        minSdkVersion 19
         targetSdkVersion 24
-        versionCode 3
-        versionName "2.5"
+        versionCode 1
+        versionName "1.0"
     }
     buildTypes {
         release {
@@ -17,6 +17,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    useLibrary 'org.apache.http.legacy'
 }
 
 dependencies {

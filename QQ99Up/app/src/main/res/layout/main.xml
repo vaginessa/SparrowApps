@@ -31,12 +31,4 @@
             android:layout_height="wrap_content"
             android:text="开始刷" />
     </LinearLayout>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_gravity="bottom"
-        android:gravity="center"
-        android:text="Copyright © 2016 Crixec. All Rights Reserved" />
 </RelativeLayout>

@@ -73,6 +73,6 @@ public class MainActivity extends Activity {
                 }
             }
         });
-        webView.loadUrl(url.replace(token, number) + number);
+        webView.loadUrl(url.replace(token, number));
     }
 }
