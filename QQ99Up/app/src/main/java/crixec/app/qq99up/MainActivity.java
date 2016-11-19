@@ -14,11 +14,7 @@ import android.widget.Toast;
 
 public class MainActivity extends Activity {
 
-    private static String[] api = {
-            "http://api.52beizhi.cn/quan/index.php?hm=<qq_number>",
-            "http://www.xkw520.top/index.php?hm=<qq_number>",
-            "http://la.vvoso.com/?qq=<qq_number>"
-    };
+    private static String[] api;
     private static String token = "<qq_number>";
 
     private EditText editText;
@@ -30,6 +26,7 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+        api = getResources().getStringArray(R.array.api_list);
         editText = (EditText) findViewById(R.id.qqnumber);
         btn = (Button) findViewById(R.id.invoke);
         spinner = (Spinner) findViewById(R.id.spinner);

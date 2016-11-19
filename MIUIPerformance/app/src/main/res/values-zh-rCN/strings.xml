@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MIUI性能模式</string>
+    <string name="digest">本软件如何工作?</string>
+    <string name="open">开启性能模式</string>
+    <string name="close">关闭性能模式</string>
+
+</resources>

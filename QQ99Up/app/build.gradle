@@ -8,8 +8,8 @@ android {
         applicationId "crixec.app.qq99up"
         minSdkVersion 9
         targetSdkVersion 24
-        versionCode 3
-        versionName "2.5"
+        versionCode 4
+        versionName "3.0"
     }
     buildTypes {
         release {

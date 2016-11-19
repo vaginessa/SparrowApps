@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MIUI Performance</string>
+    <string name="digest">How is the app working?</string>
+    <string name="open">OPEN</string>
+    <string name="close">CLOSE</string>
+
+</resources>

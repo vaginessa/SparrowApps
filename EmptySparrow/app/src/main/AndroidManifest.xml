@@ -1,0 +1,12 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="crixec.app.emptysparrow">
+
+    <application
+        android:allowBackup="true"
+        android:label="Empty Sparrow"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+    </application>
+
+</manifest>

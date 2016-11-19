@@ -15,7 +15,7 @@
             android:id="@+id/spinner"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:entries="@array/api_list" />
+            android:entries="@array/api_list_name" />
 
         <EditText
             android:id="@+id/qqnumber"

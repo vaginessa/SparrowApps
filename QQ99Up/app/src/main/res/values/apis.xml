@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <array name="api_list">
-        <item>接口1</item>
-        <item>接口2</item>
-        <item>接口3</item>
+    <array name="api_list_name">
+        <item>接口1(快速)</item>
+        <item>接口2（较慢）</item>
+        <item>接口3（较慢）</item>
+        <item>接口4（稳定）</item>
     </array>
+    <string-array name="api_list">
+        <item>http://www.xkw520.top/index.php?hm=qq_number</item>
+        <item>http://la.vvoso.com/?qq=qq_number</item>
+        <item>http://666666.duapp.com/lqq03.php?qq=qq_number</item>
+        <item>http://www.9iqcc.com/quan.php?jx=qq_number</item>
+    </string-array>
 </resources>
