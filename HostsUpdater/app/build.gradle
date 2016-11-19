@@ -4,8 +4,8 @@ android {
     compileSdkVersion 24
     buildToolsVersion "24.0.3"
     defaultConfig {
-        applicationId "crixec.app.emptysparrow"
-        minSdkVersion 9
+        applicationId "crixec.app.hostsupdater"
+        minSdkVersion 11
         targetSdkVersion 24
         versionCode 1
         versionName "1.0"
